@@ -7,6 +7,8 @@ export default defineConfig({
             input: ["resources/js/app.jsx"],
             refresh: true,
         }),
-     
     ],
+    build: {
+        outDir: "dist",
+    },
 });
